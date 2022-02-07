@@ -1,5 +1,6 @@
 import pytrends
 from pytrends.request import TrendReq
+import pandas as pd
 
 pytrend = TrendReq()
 
