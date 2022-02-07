@@ -5,7 +5,7 @@ pytrend = TrendReq()
 
 kw_list = ['tasa de interes']
 
-DATE_INTERVAL = '2022-01-01 2022-01-30'
+DATE_INTERVAL = '2015-01-01 2022-01-31'
 
 pytrend.build_payload(kw_list, timeframe = DATE_INTERVAL, geo = 'CL')
 
